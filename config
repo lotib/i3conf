@@ -28,7 +28,7 @@ floating_modifier $mod
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec xterm
 
 # kill focused window
 bindsym $mod+Shift+A kill
@@ -164,7 +164,7 @@ bindsym XF86MonBrightnessDown exec sudo brightness -
 #bindsym XF86XK_Sleep exec sudo pm-hibernate
 
 # workspace 1
-exec i3-msg 'workspace 1;exec terminator'
+exec i3-msg 'workspace 1;exec xterm'
 
 # workspace 2
 exec i3-msg 'workspace 2;exec emacs'
